@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "registerdialog.h"
+#include "logindialog.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])
@@ -9,6 +10,9 @@ int main(int argc, char *argv[])
     //w.show();
     RegisterDialog z;
     z.show();
+
+    loginDialog ff;
+    ff.show();
 
     return a.exec();
 }

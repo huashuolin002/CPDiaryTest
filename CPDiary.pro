@@ -26,12 +26,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    registerdialog.cpp
+    registerdialog.cpp \
+    logindialog.cpp
 
 HEADERS += \
         mainwindow.h \
-    registerdialog.h
+    registerdialog.h \
+    logindialog.h
 
 FORMS += \
         mainwindow.ui \
-    registerdialog.ui
+    registerdialog.ui \
+    logindialog.ui
